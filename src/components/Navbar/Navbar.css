@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar__logo img {
+  width: 50px;
+}
+
+.navbar__options {
+  list-style: none;
+  display: flex;
+}
+
+.navbar__option {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.navbar__option.active {
+  color: yellow;
+}
+
+.navbar__option {
+  cursor: pointer;
+}
+
+.navbar__option:hover {
+  color: rgb(63, 180, 234);
+}
