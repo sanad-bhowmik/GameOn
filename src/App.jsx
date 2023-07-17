@@ -3,12 +3,12 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import Carousel from './components/Home/Carousel/Carousel';
 import Banner from './components/Home/Banner/Banner';
+import Streme from './components/Home/Streme/Streme';
 
 function App() {
   const [showLoader, setShowLoader] = useState(true);
 
   useEffect(() => {
-    // Hide the loader after 5 seconds
     const timeout = setTimeout(() => {
       setShowLoader(false);
     }, 1000);
@@ -64,6 +64,7 @@ function App() {
           <Navbar />
           <Carousel />
           <Banner/>
+          <Streme/>
         </>
       )}
     </>
