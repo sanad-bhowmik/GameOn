@@ -1,0 +1,11 @@
+.minicard{
+    background-image: url('https://e0.pxfuel.com/wallpapers/423/395/desktop-wallpaper-black-gradient-black-and-white-gradient.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.check{
+    text-align: left;
+}
+.check h1:hover{
+    color: #0b8ee6;
+}
