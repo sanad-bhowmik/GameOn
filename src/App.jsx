@@ -5,6 +5,7 @@ import Carousel from './components/Home/Carousel/Carousel';
 import Banner from './components/Home/Banner/Banner';
 import Streme from './components/Home/Streme/Streme';
 import Matches from './components/Home/Matches/Matches';
+import Review from './components/Home/Review/Review';
 
 function App() {
   const [showLoader, setShowLoader] = useState(true);
@@ -67,6 +68,7 @@ function App() {
           <Banner/>
           <Streme/>
           <Matches/>
+          <Review/>
         </>
       )}
     </>
