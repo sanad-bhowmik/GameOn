@@ -6,6 +6,7 @@ import Banner from './components/Home/Banner/Banner';
 import Streme from './components/Home/Streme/Streme';
 import Matches from './components/Home/Matches/Matches';
 import Review from './components/Home/Review/Review';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [showLoader, setShowLoader] = useState(true);
@@ -65,10 +66,11 @@ function App() {
         <>
           <Navbar />
           <Carousel />
-          <Banner/>
-          <Streme/>
-          <Matches/>
-          <Review/>
+          <Banner />
+          <Streme />
+          <Matches />
+          <Review />
+          <Footer/>
         </>
       )}
     </>
